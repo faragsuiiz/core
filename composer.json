@@ -1,0 +1,55 @@
+{
+    "name": "alahram-group/shared-models",
+    "description": "Share Laravel Eloquent Models Between Multiple Applications",
+    "keywords": [
+        "alahram-group",
+        "shared-models"
+    ],
+    "homepage": "https://github.com/alahram-group/shared-models",
+    "license": "The Unlicense",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mezzat",
+            "email": "mohamed.ezzat.omar@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0",
+        "laravel/framework": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlahramGroup\\SharedModels\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AlahramGroup\\SharedModels\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AlahramGroup\\SharedModels\\SharedModelsServiceProvider"
+            ],
+            "aliases": {
+                "SharedModels": "AlahramGroup\\SharedModels\\SharedModelsFacade"
+            }
+        }
+    }
+}
