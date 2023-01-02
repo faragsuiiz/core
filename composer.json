@@ -1,5 +1,5 @@
 {
-    "name": "alahram-group/shared-models",
+    "name": "alahram-group/core-module",
     "description": "Share Laravel Eloquent Models Between Multiple Applications",
     "keywords": [
         "alahram-group",
@@ -10,9 +10,9 @@
     "type": "library",
     "authors": [
         {
-            "name": "Mezzat",
-            "email": "mohamed.ezzat.omar@gmail.com",
-            "role": "Developer"
+            "name": "suiiz development team",
+            "email": "support@suizz.com",
+            "role": "DevHQ"
         }
     ],
     "require": {
