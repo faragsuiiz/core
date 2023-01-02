@@ -1,11 +1,8 @@
-# Very short description of the package
+# Suiiz Core Module
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/alahram-group/shared-models.svg?style=flat-square)](https://packagist.org/packages/alahram-group/shared-models)
-[![Total Downloads](https://img.shields.io/packagist/dt/alahram-group/shared-models.svg?style=flat-square)](https://packagist.org/packages/alahram-group/shared-models)
-![GitHub Actions](https://github.com/alahram-group/shared-models/actions/workflows/main.yml/badge.svg)
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
-
+Core module will contain shared cross-over all suiiz application data models
+and core services under alahram-group license, packaged designed to be
+part of shared project composer package, kindly find below the usage of this package
 ## Installation
 
 You can install the package via composer:
@@ -17,7 +14,7 @@ composer require alahram-group/shared-models
 ## Usage
 
 ```php
-// Usage description here
+use core/data
 ```
 
 ### Testing
