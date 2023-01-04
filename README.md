@@ -35,11 +35,6 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 If you discover any security related issues, please email mohamed.ezzat.omar@gmail.com instead of using the issue tracker.
 
-## Credits
-
--   [Mezzat](https://github.com/alahram-group)
--   [All Contributors](../../contributors)
-
 ## License
 
 The The Unlicense. Please see [License File](LICENSE.md) for more information.
